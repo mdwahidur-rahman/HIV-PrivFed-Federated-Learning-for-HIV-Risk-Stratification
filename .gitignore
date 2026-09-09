@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Real data -- never commit participant-level data, even de-identified.
+/data/*.csv
+/data/*.xlsx
+/data/*.parquet
+!/data/README.md
+
+# Generated results / model artifacts
+*.csv
+!requirements.txt
+results/
+outputs/
+*.pt
+*.pth
+catboost_info/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

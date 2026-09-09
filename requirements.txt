@@ -1,0 +1,19 @@
+# Tested against the versions below. torch is left unpinned on the CUDA build
+# suffix (e.g. "+cu130") since that suffix is hardware-specific -- install
+# whichever CPU/CUDA build matches your machine from https://pytorch.org/get-started/locally/
+# if the plain PyPI wheel below doesn't suit your setup.
+
+numpy>=2.4.4
+pandas>=3.0.2
+scipy>=1.17.1
+scikit-learn>=1.8.0
+imbalanced-learn>=0.14.2
+xgboost>=3.4.1
+lightgbm>=4.7.0
+catboost>=1.2.10
+torch>=2.14.0
+opacus>=1.6.0
+cryptography>=46.0.6
+
+# dev / testing
+pytest>=8.0.0
