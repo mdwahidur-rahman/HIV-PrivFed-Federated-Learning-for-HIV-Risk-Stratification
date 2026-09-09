@@ -211,8 +211,8 @@ codebase does not resolve on its own:
              Non-IID Clinical Heterogeneity},
   author  = {Rahman, Md Wahidur and Adarbah, Haitham Y. and Pasha, Atena and Noore, Afzel},
   year    = {2026},
-  journal = {Diagnostics},
-  note    = {[AUTHORS: fill in volume/issue/DOI once assigned]}
+  journal = {Will add},
+  note    = {Will add}
 }
 ```
 
